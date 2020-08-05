@@ -4,7 +4,7 @@ export default () => {
   return (
     <Layout>
       <div className="container">
-        <h1>Index</h1>
+        <h1>Admin</h1>
       </div>
     </Layout>
   )

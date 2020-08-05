@@ -22,15 +22,21 @@
   margin: 0;
 }
 
+@media (max-width: 768px) {
+  .PlayerGroup {
+    grid-template-columns: repeat(auto-fill, 100%) !important;
+  }
+}
+
 .player {
-  overflow: hidden!important;
+  overflow: hidden !important;
 }
 
 .playlist {
   margin-left: 28px;
-  overflow-y: scroll!important;
+  overflow-y: auto !important;
   height: 80vh;
-  overflow-x: hidden!important;
+  overflow-x: hidden !important;
   margin: 0;
   padding: 0;
   list-style-type: none;

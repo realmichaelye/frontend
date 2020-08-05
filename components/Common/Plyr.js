@@ -1,9 +1,7 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Plyr from 'plyr'
-// import 'plyr/dist/plyr.css'
-
-import './Plyr.css'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Plyr from 'plyr';
+import styles from '../../styles/modules/Plyr.module.scss';
 
 class PlyrComponent extends React.Component {
   componentDidMount() {
@@ -37,8 +35,7 @@ class PlyrComponent extends React.Component {
 
   render() {
     return (
-      <video className="js-plyr plyr">
-      </video>
+      <video className={`js-plyr ${styles.plyr}`}></video>
     )
   }
 }

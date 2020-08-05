@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import styles from '../../styles/modules/CoursePlayer.module.scss';
-// import PlyrComponent from '../Common/Plyr';
+import PlyrComponent from '../Common/Plyr';
 import testCourse from './testCourse.json';
 
 
@@ -13,9 +13,7 @@ export default () => {
     <div className={styles.CoursePlayer}>
       <h2 style={{'color': '#ffffff'}}>{testCourse.name}</h2>
       <div className={styles.PlayerGroup}>
-        {
-          // <PlyrComponent id="player" videoId={videoId}/>
-        }
+        <PlyrComponent id="player" videoId={videoId}/>
         <div className={styles.playlistContainer}>
           <ul className={styles.playlist} style={{'color': '#ffffff'}}>
             {testCourse.items.map((item, i) => {

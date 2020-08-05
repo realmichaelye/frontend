@@ -1,0 +1,21 @@
+.plyr--full-ui input[type=range] {
+    color: #347afd;
+  }
+
+.plyr__control--overlaid {
+  background: rgb(52, 122, 253, .8);
+}
+
+.plyr--video .plyr__control.plyr__tab-focus,
+.plyr--video .plyr__control:hover,
+.plyr--video .plyr__control[aria-expanded=true] {
+  background: #347afd;
+}
+
+.plyr__control.plyr__tab-focus {
+  box-shadow: 0 0 0 5px rgba(52, 122, 253, .5);
+}
+
+.plyr__menu__container .plyr__control[role=menuitemradio][aria-checked=true]::before {
+  background: #347afd;
+}

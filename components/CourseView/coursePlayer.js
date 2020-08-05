@@ -11,7 +11,7 @@ export default () => {
 
   return (
     <div className={styles.CoursePlayer}>
-      <h2 style={{'color': '#ffffff'}}>{testCourse.name}</h2>
+      <h2>{testCourse.name}</h2>
       <div className={styles.PlayerGroup}>
         <PlyrComponent id="player" videoId={videoId}/>
         <div className={styles.playlistContainer}>

@@ -4,7 +4,7 @@ export default () => {
   return (
     <Layout>
       <div className="container">
-        <h1>Search</h1>
+        <h1>Explore</h1>
       </div>
     </Layout>
   )

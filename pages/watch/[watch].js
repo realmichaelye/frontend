@@ -9,7 +9,10 @@ export default () => {
 
   return (
     <Layout>
-      <CoursePlayer/>
+      <div className="container">
+        <p>Course ID: {watch}</p>
+        <CoursePlayer/>
+      </div>
     </Layout>
   )
 }
